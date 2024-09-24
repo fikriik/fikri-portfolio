@@ -242,8 +242,9 @@ nav .wrapper{
     margin-button: 20px;
 }
 .footer{
-	background-color: #24262b;
-    padding: 70px 0;
+	  background-color: #24262b;
+    padding: 40px 0;
+    margin-top: 50px;
 }
 .footer-col{
    width: 25%;
