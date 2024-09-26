@@ -219,6 +219,11 @@ nav .wrapper{
     font-weight: 600;
     margin-bottom: 10px;
 }
+.text-experience{
+    font-size: 23px;
+    font-weight: 450;
+    margin-bottom: 30px;
+}
 .link{
     font-size: 17px;
     text-decoration: none;
