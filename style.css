@@ -144,12 +144,59 @@ nav .wrapper{
     max-width: 100%;
     position: relative;
 }
+.container-1{
+    width: 1080px; 
+    top: 80px;
+    margin: auto;
+    padding: 20px;
+    height: fit-content;
+    max-width: 100%;
+    position: relative;
+}
 
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+.container-2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
 .img{
     width : 800px;
     height: 414px;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+.img-2{
+    width : 318px;
+    height: 318px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img-profile{
+    width: 318px;
+    height: 318px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.fotoprofile{
+   text-align: center;
+   margin-top: 8px;
+   padding: 26px;
+}
+
+
+.image-container-2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
 }
 .title{
     font-size: 30px;
