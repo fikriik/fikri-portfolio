@@ -276,6 +276,25 @@ nav .wrapper{
   font-weight: 600;
   margin-bottom: 8px;
 }
+.creating-title-2 {
+  font-size: 23px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  border: 300px;
+  border-bottom: 1px solid #637198;
+  line-height: 60px; 
+}
+.creating-title-3 {
+  font-size: 23px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  border: 300px;
+  border-bottom: 1px solid #637198;
+  width: 200px;
+  margin-left: 30px;
+  line-height: 60px; 
+}
+
 .creating-title-1{
   padding: 14px;
   font-size: 17px;
@@ -287,6 +306,12 @@ nav .wrapper{
   margin-bottom: 10px; 
 }
 
+.creating-paragraph-2{
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 510px;
+  height: 132px; 
+}
 .creating-paragraph-1{
   font-size: 14px;
   padding: 10px;
@@ -304,7 +329,15 @@ nav .wrapper{
     gap: 10px;
     margin-button: 20px;
 }
-body{
+.list{
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 14px;
+  width: 207px;
+  height: 28px;
+}
+
+.body{
 margin:0;
 overflow-x:hidden;
 }
