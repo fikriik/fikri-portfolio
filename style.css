@@ -203,6 +203,22 @@ nav .wrapper{
     font-weight: 500;
     margin-bottom: 30px;
 }
+.title-nama{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.title-paragraph{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  
+}
+.heading{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 .link{
     font-size: 17px;
     text-decoration: none;
