@@ -1,18 +1,15 @@
-const btns = document.querySelectorAll(".acc-btn");
+const faqItemHead = document.querySelectorAll('.faq-item-head');
 
-// fn
-function accordion() {
-  // this = the btn | icon & bg changed
-  this.classList.toggle("is-open");
 
-  // the acc-content
-  const content = this.nextElementSibling;
-
-  // IF open, close | else open
-  if (content.style.maxHeight) content.style.maxHeight = null;
-  else content.style.maxHeight = content.scrollHeight + "px";
-}
-
-// event
-btns.forEach((el) => el.addEventListener("click", accordion));
-
+faqItemHead.forEach((head, index) => {
+    head.addEventListener('click', () => {
+        let icon = head.querySelector('.faq-item-icon').firstElementChild;
+        if(icon.className == "fa fa-chevron-down"){
+            head.nextElementSibling.classList.add('show-para');
+            icon.className = "fa fa-chevron-up";
+        } else if(icon.className == "fa fa-chevron-up"){
+            head.nextElementSibling.classList.remove('show-para');
+            icon.className = "fa fa-chevron-down";
+        }
+    });
+});

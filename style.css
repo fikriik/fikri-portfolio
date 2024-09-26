@@ -188,7 +188,7 @@ nav .wrapper{
 .fotoprofile{
    text-align: center;
    margin-top: 8px;
-   padding: 26px;
+   margin-bottom: 60px;
 }
 
 
@@ -359,7 +359,7 @@ margin-top: 40px;
 width:100%;
 margin:1% 0%;
 padding:0.6% 0%;
-color:gray;
+color: #fff;
 font-size:0.8em;
 }
 
@@ -387,20 +387,7 @@ font-size:2em;
 margin:0% 1%;
 }
 
-@media (max-width:720px){
-.footer{
-text-align:left;
-padding:5%;
-}
-.footer .row ul li{
-display:block;
-margin:10px 0px;
-text-align:left;
-}
-.footer .row a i{
-margin:0% 3%;
-}
-}
+
 .acc-container {
     padding: 4rem 2rem;
 }
@@ -449,7 +436,91 @@ margin:0% 3%;
     color: dodgerblue;
 }
 
+.faq-title h1{
+    margin: 3rem 0 2.4rem 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.faq-content{
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 1rem;
+}
+.faq-right-content, .faq-left-content{
+    padding: 1.2rem;
+}
+.faq-left-content{
+    text-align: center;
+}
+.faq-left-content img{
+    width: 75%;
+    display: block;
+    margin: 1rem auto;
+}
+.faq-left-content p{
+    font-weight: 400;
+    opacity: 0.95;
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+.faq-item{
+    margin-bottom: 1rem;
+}
+.faq-item-head{
+    color: #000;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: white;
+    opacity: 0.85;
+    padding: 0.6rem 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000
+}
 
+.faq-item-icon{
+    cursor: pointer;
+}
+.faq-item-body{
+    overflow: hidden;
+    max-height: 0;
+    background: rgba(255, 88, 96, 0.1);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+.faq-item-body p{
+    font-weight: 300;
+    padding: 1rem;
+}
+.show-para{
+    max-height: 1000px; /* js related */
+}
+
+.faq-flex {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
 
 
 @media screen and (max-width: 970px) {
