@@ -570,8 +570,27 @@ margin:0% 1%;
     font-family: 'Inter', 'Helvetica', sans-serif;
     color: #434a54;
 }
+.list-contact{
+  margin-left: 17px;
+}
+.paragraph-contact-title-2{
+  font-size:14px;
+  color: #dedede;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 60px;
 
+}
 
+.paragraph-contact-title-3{
+  font-size:14px;
+  color: #434a54;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  background-color: #abb8c3;
+  
+}
 @media (max-width:720px){
 .footer{
 text-align:left;
