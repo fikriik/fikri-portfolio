@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -144,11 +145,29 @@ nav .wrapper{
     max-width: 100%;
     position: relative;
 }
+
+.container-contact{
+    width: 1080px; 
+    top: 80px;
+    height: fit-content;
+    max-width: 100%;
+    position: relative;
+    width: 702px;
+}
 .container-1{
     width: 1080px; 
     top: 80px;
     margin: auto;
     padding: 20px;
+    height: fit-content;
+    max-width: 100%;
+    position: relative;
+}
+
+.containercontact{
+    width: 1080px; 
+    top: 80px;
+    margin: auto;
     height: fit-content;
     max-width: 100%;
     position: relative;
@@ -238,7 +257,26 @@ nav .wrapper{
     text-decoration: none;
     font-weight: 500;
 }
+.title-contact{
+  font-size: 27px;
+  font-weight: 400;
+  margin-top: 20px;
+  
+}
 
+.title-contact-1{
+  font-size: 13px;
+  font-weight: 600;
+  color:  #a5aaaf;
+  margin-top: 30px;
+  
+}
+.parahraph-contact{
+  font-size: 17px;
+  margin-top: 14px;
+  margin-buttom: 30px
+  width: 600px;
+}
 .button-1{
   background-color: #1a1d20;
     font-size: 16px;
@@ -345,6 +383,10 @@ nav .wrapper{
 .body{
 margin:0;
 overflow-x:hidden;
+}
+.contact{
+  text-size: 27px;
+
 }
 
 .footer{
@@ -506,6 +548,29 @@ margin:0% 1%;
   align-items:center;
   justify-content: space-between;
 }
+
+.title-contact{
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: #303030
+}
+
+.paragraph-contact-title{
+  font-size:14px;
+  color: #dedede;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.paragraph-contact {
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-family: 'Inter', 'Helvetica', sans-serif;
+    color: #434a54;
+}
+
 
 @media (max-width:720px){
 .footer{
