@@ -589,8 +589,24 @@ margin:0% 1%;
   margin-bottom: 15px;
   margin-top: 20px;
   background-color: #abb8c3;
+  padding: 10px
   
 }
+
+.blue-text {
+   color: blue; 
+}
+
+.email-box{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 300px
+}
+
+
+.email-box
+
+
 @media (max-width:720px){
 .footer{
 text-align:left;
